@@ -1,0 +1,29 @@
+{
+    "name": "dashmsg",
+    "version": "0.10.2",
+    "description": "Sign and Verify messages via Private, Collateral or Voting key",
+    "main": "dashmsg.js",
+    "files": [
+        "./lib/"
+    ],
+    "bin": {
+        "dashmsg": "./bin/dashmsg.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dashhive/dashmsg.js.git"
+    },
+    "keywords": [],
+    "author": "AJ ONeal <aj@therootcompany.com> (https://therootcompany.com/)",
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/dashhive/dashmsg.js/issues"
+    },
+    "homepage": "https://github.com/dashhive/dashmsg.js#readme",
+    "dependencies": {
+        "@dashevo/dashcore-lib": "^0.19.30"
+    }
+}
